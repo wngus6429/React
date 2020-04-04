@@ -1,11 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-function App() {
-  return (
-    <div>
-      <h1>리액트</h1>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return <h1> I am a Class Component </h1>;
+  }
 }
 
 export default App;
