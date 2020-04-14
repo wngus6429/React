@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 
 function Food({ name, 사진 }) {
   return (
@@ -14,8 +14,8 @@ const foodLike = [
   {
     name: "pizza",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6ji2D3ke6Bmlp-FDONZOQn5B540neQ5_wGpa5dCSpwQwpE0If"
-  }
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6ji2D3ke6Bmlp-FDONZOQn5B540neQ5_wGpa5dCSpwQwpE0If",
+  },
 ];
 
 function renderFood(dish) {
@@ -27,4 +27,4 @@ function App() {
   return <div>{foodLike.map(renderFood)}</div>;
 }
 
-export default App;
+//export default App;

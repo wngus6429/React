@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+//import React from "react";
+//import PropTypes from "prop-types";
 
 const foodLike = [
   {
@@ -49,4 +49,4 @@ function App() {
   );
 }
 
-export default App;
+//export default App;
