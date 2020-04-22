@@ -7,11 +7,11 @@ function Movie({ id, year, title, summary, poster, genres }) {
   return (
     <Link
       to={{
-        pathname: `/movie/${id}`, //pathname: "/movie-detail"
+        pathname: `/movie/${id}`, //링크를 통해 정보를 라우터로 보냄.
         state: {
           year,
-          title,
-          summary,
+          title, //title:title 이라 생각하셈.
+          summary, //무엇을 보낼건지 정함.
           poster,
           genres,
         },

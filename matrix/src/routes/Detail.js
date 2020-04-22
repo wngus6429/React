@@ -8,11 +8,12 @@ class Detail extends React.Component {
     }
   }
   render() {
+    console.log(this.props);
     const { location } = this.props;
     if (location.state) {
       return <span>{location.state.title}</span>;
     } else {
-      return null;
+      return null; //이거면 위의 if문에 걸리니 home으로 가는거.
     }
   }
 }
