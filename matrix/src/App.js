@@ -18,3 +18,6 @@ function App() {
 }
 
 export default App;
+
+//내가 path로 가면 뒤에 컴포넌트를 보여준다는거지
+//함수형 컴포넌트를 만듬.
